@@ -6,7 +6,7 @@ This is a [web application](https://annadanngo.herokuapp.com/) which will be a m
 - No hard-coded data, can be used by any organisation.
 - Layout contains major information about the organization goals and undertaken activities.
 - Any one who wan't to use this template can contact any of the three contributors(it is an open source project).
-- Responsive Design.
+- Responsive Designs.
 
 ## Installation
     npm install
