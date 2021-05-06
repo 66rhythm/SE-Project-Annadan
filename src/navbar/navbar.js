@@ -243,7 +243,7 @@ class Navbar extends React.Component {
                             id="menu-item-24748"
                             className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home  page_item page-item-7366 current_page_item menu-item-24739 menu-item-highlight menu-item-depth-0 menu-item-hide-text menu-item-icon"
                           >
-                            <a href="/auth/logout">
+                            <a href="http://localhost:4000/auth/logout">
                               <span className="nav_item_wrap">
                                 <span
                                   className="nav_title"
@@ -431,7 +431,7 @@ class Navbar extends React.Component {
                           id="menu-item-24748"
                           className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home  page_item page-item-7366 current_page_item menu-item-24739 menu-item-highlight menu-item-depth-0 menu-item-hide-text menu-item-icon"
                         >
-                          <a href="/auth/logout">
+                          <a href="http://localhost:4000/auth/logout">
                             <span className="nav_item_wrap">
                               <span
                                 className="nav_title"
