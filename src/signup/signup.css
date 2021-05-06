@@ -44,6 +44,54 @@
     right: 10px;
   }
 }
+
+.loginRegister .loginRegisterRight .loginRegisterForm ul {
+  margin: 0;
+  padding: 0;
+}
+.loginRegister .loginRegisterRight .loginRegisterForm .signupSteps {
+  display: none;
+}
+.loginRegister .loginRegisterRight .loginRegisterForm .signupSteps.activeStep {
+  display: block;
+}
+.loginRegister .loginRegisterRight .loginRegisterForm ul li {
+  display: block;
+  margin: 15px 0;
+  position: relative;
+  list-style-type: none;
+}
+@media only screen and (max-width: 768px) {
+  .loginRegister .loginRegisterRight .loginRegisterForm ul li {
+    margin: 10px 0;
+  }
+}
+.loginRegister .loginRegisterRight .loginRegisterForm ul li .field-labels {
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 0 0 10px;
+}
+.loginRegister .loginRegisterRight .loginRegisterForm ul li .errorMsgBox {
+  float: right;
+  height: 22px;
+  min-width: 10px;
+  margin: 0 0 4px;
+}
+.loginRegister .loginRegisterRight .loginRegisterForm ul li input {
+  box-sizing: border-box;
+  width: 100%;
+  position: relative;
+  font-size: 16px;
+  height: 52px;
+  border-radius: 3px;
+  border: 2px solid #e5e5e5;
+  background-color: #fff;
+  padding: 0 13px;
+}
+
 .loginRegister .new-CloseButton em {
   display: inline-block;
   line-height: 60px;
@@ -149,6 +197,37 @@
   display: inline-block;
   margin-bottom: 35px;
 }
+
+@media only screen and (max-width: 768px) {
+  .new-goBack {
+    position: relative;
+    line-height: 0;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    float: left;
+    background: none;
+    margin: 15px;
+    box-shadow: none;
+  }
+}
+.new-goBack em {
+  display: inline-block;
+  line-height: 52px;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.6);
+  height: 52px;
+  padding-top: 5px;
+}
+@media only screen and (max-width: 768px) {
+  .new-goBack em {
+    line-height: 0;
+    font-size: 22px;
+    height: auto;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .loginRegister .loginRegisterRight .loginRegisterForm .authHeading {
     margin-bottom: 15px;
@@ -197,52 +276,7 @@
     line-height: 34px;
   }
 }
-.loginRegister .loginRegisterRight .loginRegisterForm ul {
-  margin: 0;
-  padding: 0;
-}
-.loginRegister .loginRegisterRight .loginRegisterForm .signupSteps {
-  display: none;
-}
-.loginRegister .loginRegisterRight .loginRegisterForm .signupSteps.activeStep {
-  display: block;
-}
-.loginRegister .loginRegisterRight .loginRegisterForm ul li {
-  display: block;
-  margin: 15px 0;
-  position: relative;
-  list-style-type: none;
-}
-@media only screen and (max-width: 768px) {
-  .loginRegister .loginRegisterRight .loginRegisterForm ul li {
-    margin: 10px 0;
-  }
-}
-.loginRegister .loginRegisterRight .loginRegisterForm ul li .field-labels {
-  position: relative;
-  display: inline-block;
-  font-size: 14px;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.7);
-  margin: 0 0 10px;
-}
-.loginRegister .loginRegisterRight .loginRegisterForm ul li .errorMsgBox {
-  float: right;
-  height: 22px;
-  min-width: 10px;
-  margin: 0 0 4px;
-}
-.loginRegister .loginRegisterRight .loginRegisterForm ul li input {
-  box-sizing: border-box;
-  width: 100%;
-  position: relative;
-  font-size: 16px;
-  height: 52px;
-  border-radius: 3px;
-  border: 2px solid #e5e5e5;
-  background-color: #fff;
-  padding: 0 13px;
-}
+
 @media only screen and (max-width: 768px) {
   .loginRegister .loginRegisterRight .loginRegisterForm ul li input {
     font-size: 14px;
@@ -267,21 +301,7 @@
   margin: 0;
   padding: 0;
 }
-.loginRegister
-  .loginRegisterRight
-  .loginRegisterForm
-  ul
-  li
-  .results-list
-  ol
-  li {
-  display: block;
-  list-style-type: none;
-  padding: 5px;
-  cursor: pointer;
-  margin: 0;
-  font-size: 13px;
-}
+
 .loginRegister .loginRegisterRight .loginRegisterForm ul li .submitButton {
   display: inline-block;
   vertical-align: middle;
@@ -323,6 +343,21 @@
   width: 100%;
   background: rgba(0, 0, 0, 0.25);
   transition: all 0.3s ease-in-out;
+}
+.loginRegister
+  .loginRegisterRight
+  .loginRegisterForm
+  ul
+  li
+  .results-list
+  ol
+  li {
+  display: block;
+  list-style-type: none;
+  padding: 5px;
+  cursor: pointer;
+  margin: 0;
+  font-size: 13px;
 }
 .loginRegister
   .loginRegisterRight
@@ -604,35 +639,7 @@ legend {
   background: rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease-in-out;
 }
-@media only screen and (max-width: 768px) {
-  .new-goBack {
-    position: relative;
-    line-height: 0;
-    top: 0;
-    left: 0;
-    width: auto;
-    height: auto;
-    float: left;
-    background: none;
-    margin: 15px;
-    box-shadow: none;
-  }
-}
-.new-goBack em {
-  display: inline-block;
-  line-height: 52px;
-  font-size: 18px;
-  color: rgba(0, 0, 0, 0.6);
-  height: 52px;
-  padding-top: 5px;
-}
-@media only screen and (max-width: 768px) {
-  .new-goBack em {
-    line-height: 0;
-    font-size: 22px;
-    height: auto;
-  }
-}
+
 /*error*/
 .error {
   color: #b22222;

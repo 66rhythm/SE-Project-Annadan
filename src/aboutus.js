@@ -10,6 +10,7 @@ const AboutUs = () => {
       <div id="aboutus" className="about_con">
         <div className="about_left">
           <h1>About NGO Foundation</h1>
+          
           <p>
             Annadann Foundation, an NGO with the objective to provide food
             forthe economically weaker sections of our society, is an NGO in
