@@ -20,8 +20,17 @@ This website is made by:<br>
 2- [Arpita Tiwari](https://github.com/Arpita309)<br>
 3- [Tanya Bhandari](https://github.com/66rhythm)<br>
 4- [Anand Aggarwal](https://github.com/anand9git)<br>
+<br>
+<br>
+
+## Community Feature
+
+<img width="64%" src="https://github.com/66rhythm/SE-Project-Annadan/blob/master/anna-post.gif">
+<br>
+<br>
 
 ### Screenshots of the website
+<p>
 <a href="https://annadanngo.herokuapp.com/">
 <img align="left" width="64%" src="https://github.com/Deeksha2501/Deeksha2501/blob/master/resources/anndannfull.png">
 </a>
@@ -30,9 +39,7 @@ This website is made by:<br>
 <br>
 <br>
 <br>
-<img align="right" width="29%"  src="https://github.com/Deeksha2501/Deeksha2501/blob/master/resources/ann-res.png">
+<img width="30%"  src="https://github.com/Deeksha2501/Deeksha2501/blob/master/resources/ann-res.png">
 <br>
+</p>
 
-### Community Feature
-
-<img src="https://github.com/66rhythm/SE-Project-Annadan/blob/master/anna-post.gif">
