@@ -57,7 +57,7 @@ router.post("/login", passport.authenticate("local"), (req, res) => {
 router.get("/logout", (req, res) => {
   console.log("Deeksha");
   req.logout();
-  res.redirect("https://annadanngo.herokuapp.com/");
+  res.redirect("'http://localhost:3000'");
 });
 
 router.get("/current_user", (req, res) => {
